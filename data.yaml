@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['1', '2', '3', '4', '5']
+
+roboflow:
+  workspace: harumerody-object-detection
+  project: try-hard
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/harumerody-object-detection/try-hard/dataset/1
